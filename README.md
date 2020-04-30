@@ -25,7 +25,38 @@ const Post = new Schema(
 )
 ```
 
-Pull Request when done.
+**Pull Request when done.**
 
-Deploy your app to MongoDB Atlas and Heroku.
+**Deploy your app to MongoDB Atlas and Heroku.**
 > include the heroku deployment URL in your Pull Request description
+
+**Bonus**: 
+
+Include the concept of a user:
+- A post belongs to a user
+- A user can have many posts
+
+Here is an example schema:
+
+```js
+const User = new Schema(
+  {
+    username: { type: String, required: true },
+    email: { type: String, required: true },
+    posts: [{ type: Schema.Types.ObjectId, ref: 'posts' }]
+  },
+  { timestamps: true }
+)
+```
+
+```js
+const Post = new Schema(
+  {
+    title: { type: String, required: true },
+    imgURL: { type: String, required: true },
+    content: { type: String, required: true },
+    user: { type: Schema.Types.ObjectId, ref: 'users' }
+  },
+  { timestamps: true }
+)
+```
