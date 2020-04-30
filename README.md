@@ -28,4 +28,4 @@ const Post = new Schema(
 Pull Request when done.
 
 Deploy your server app to MongoDB Atlass and Heroku.
-> Include the heroku deployment URL in your Pull Request description.
+> Include the heroku deployment URL in your Pull Request description
