@@ -61,7 +61,8 @@ const Post = new Schema(
   { timestamps: true }
 )
 ```
-```
 
 </p>
 </details>
+
+> Make sure to accomodate this schema in the express routes, controllers, and seed file
