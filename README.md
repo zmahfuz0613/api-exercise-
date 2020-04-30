@@ -65,4 +65,4 @@ const Post = new Schema(
 </p>
 </details>
 
-> Make sure to accomodate this schema in the express routes, controllers, and seed file
+> Make sure to accomodate this schema in your express routes, controllers, and seed file
