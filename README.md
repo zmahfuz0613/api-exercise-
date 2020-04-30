@@ -13,7 +13,7 @@ Test all routes in Postman.
 
 Here is the schema:
 
-```
+```js
 const Post = new Schema(
   {
     title: { type: String, required: true },
