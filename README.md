@@ -69,3 +69,6 @@ In your seed file you will have to:
 1. Create users
 2. Create posts and associate them with users
 3. Create the association between users and posts
+
+**Tips**
+- https://mongoosejs.com/docs/queries.html
