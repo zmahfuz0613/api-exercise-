@@ -72,3 +72,4 @@ In your seed file you will have to:
 
 **Tips**
 - https://mongoosejs.com/docs/queries.html
+- https://mongoosejs.com/docs/populate.html
